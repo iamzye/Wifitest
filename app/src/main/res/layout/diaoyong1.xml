@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+
+
+     >
+
+    <ScrollView
+        android:id="@+id/myscroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0dip"
+        android:fadingEdge="none"
+        android:background="#e13f4140"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/mText"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fadingEdge="none"
+            android:textAlignment="textStart"
+            android:textColor="#0dea70"
+            android:textSize="18sp" />
+    </ScrollView>
+    <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:id="@+id/llybuttom"
+                 android:layout_width="match_parent"
+                 android:orientation="vertical"
+                 android:layout_alignParentBottom="true"
+             >
+
+        <Button
+            android:id="@+id/mbutton2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:text="RESTART"
+            android:textStyle="bold" />
+    </LinearLayout>
+     </RelativeLayout>
